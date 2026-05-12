@@ -1,0 +1,10 @@
+model:
+  name: "llama3.2"
+  endpoint: "http://localhost:11434/api/generate"
+  max_response_time_seconds: 30
+
+thresholds:
+  hallucination_score: 0.7
+  rag_faithfulness: 0.8
+  rag_answer_relevancy: 0.75
+
