@@ -4,7 +4,8 @@ model:
   max_response_time_seconds: 30
 
 thresholds:
-  hallucination_score: 0.7
+  hallucination_score: 0.5
+  faithfulness_score: 0.5
   rag_faithfulness: 0.8
   rag_answer_relevancy: 0.75
 

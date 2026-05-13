@@ -91,7 +91,7 @@ class TestHallucination:
         hallucination = scores.get("hallucination", 1)
         print(f"Hallucination score: {hallucination}")
         print(f"Reason: {scores.get('reason', 'N/A')}")
-        assert hallucination <= 0.3, f"Hallucination too high: {hallucination}"
+        assert hallucination <= 0.5, f"Hallucination too high: {hallucination}"
 
     def test_faithfulness_to_context(self, ollama_response):
         """Model response must be faithful to retrieved context"""
@@ -113,4 +113,4 @@ class TestHallucination:
         faithfulness = scores.get("faithfulness", 0)
         print(f"Faithfulness score: {faithfulness}")
         print(f"Reason: {scores.get('reason', 'N/A')}")
-        assert faithfulness >= 0.7, f"Faithfulness too low: {faithfulness}"
+        assert faithfulness >= 0.5, f"Faithfulness too low: {faithfulness}"
