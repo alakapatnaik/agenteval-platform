@@ -7,3 +7,4 @@ reports/
 *.egg-info/
 dist/
 .Ds_Store
+__pycache__/

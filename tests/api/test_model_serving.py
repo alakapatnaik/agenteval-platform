@@ -27,7 +27,7 @@ class TestModelServing:
         elapsed = time.time() - start
         assert elapsed < max_time, f"Too slow:{elapsed:.2f}s (limit: {max_time}s)"
 
-    def test_model_handles_empty_prompt(slef, model_client, model_endpoint, model_name):
+    def test_model_handles_empty_prompt(self, model_client, model_endpoint, model_name):
         response = generate(model_client, model_endpoint, model_name, "")
         assert response.status_code in [200, 400]
 
@@ -36,5 +36,5 @@ class TestModelServing:
         try:
             response.json()
         except Exception:
-            pytest.fain("Response is not valod Json")
+            pytest.fail("Response is not valid Json")
             
