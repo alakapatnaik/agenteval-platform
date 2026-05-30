@@ -15,18 +15,29 @@ def config():
         return yaml.safe_load(f)
 
 @pytest.fixture(scope="session")
+def active_env(config):
+    """Returns active environment config"""
+    env_name = config.get("environment", "local")
+    return config["environments"][env_name]
+
+@pytest.fixture(scope="session")
+def protocol(active_env):
+    """Returns protocol — ollama or kserve"""
+    return active_env.get("protocol", "ollama")
+
+@pytest.fixture(scope="session")
 def model_client():
     client = httpx.Client(timeout=60.0)
     yield client
     client.close()
 
 @pytest.fixture(scope="session")
-def model_name(config):
-    return config["model"]["name"]
+def model_name(active_env):
+    return active_env["model_name"]
 
 @pytest.fixture(scope="session")
-def model_endpoint(config):
-    return config["model"]["endpoint"]
+def model_endpoint(active_env):
+    return active_env["endpoint"]
 
 @pytest.fixture(scope="session")
 def ollama_response(model_client, model_endpoint, model_name):
@@ -38,3 +49,4 @@ def ollama_response(model_client, model_endpoint, model_name):
         )
         return r.json()["response"]
     return _generate
+

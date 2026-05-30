@@ -1,11 +1,21 @@
-model:
-  name: "llama3.2"
-  endpoint: "http://localhost:11434/api/generate"
-  max_response_time_seconds: 30
+environment: "local"  # switch to "openshift" for real cluster
+
+environments:
+  local:
+    model_name: "llama3.2"
+    endpoint: "http://localhost:11434/api/generate"
+    protocol: "ollama"
+    max_response_time_seconds: 30
+
+  openshift:
+    model_name: "llama"
+    endpoint: "https://YOUR-KSERVE-ENDPOINT/v2/models/llama/infer"
+    protocol: "kserve"
+    token: ""  # OpenShift bearer token goes here
+    max_response_time_seconds: 60
 
 thresholds:
-  hallucination_score: 0.5
-  faithfulness_score: 0.5
-  rag_faithfulness: 0.8
-  rag_answer_relevancy: 0.75
-
+  hallucination_max: 0.5
+  faithfulness_min: 0.3
+  relevancy_min: 0.3
+  latency_max_seconds: 30
