@@ -21,7 +21,7 @@ class TestModelServing:
         assert len(data["response"].strip()) > 0
 
     def test_response_latency(self, model_client, model_endpoint, model_name, config):
-        max_time = config["model"]["max_response_time_seconds"]
+        max_time = config["environments"]["local"]["max_response_time_seconds"]
         start = time.time()
         generate(model_client,model_endpoint, model_name, "Say Hello")
         elapsed = time.time() - start
