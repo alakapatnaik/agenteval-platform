@@ -1,0 +1,17 @@
+
+Model output: KServe supports a wide range of machine learning models, including:
+
+1. TensorFlow model serving
+2. scikit-learn
+3. PyTorch
+4. ONNX (Open Neural Network Exchange)
+
+These models can be served in variou
+
+Judge raw output:
+RELEVANCY: 0.9
+FAITHFULNESS: 0.8
+HALLUCINATION: 0.2
+REASON: The answer provides mostly relevant information but includes some additional details not mentioned in the context, such as model formats and additional model types.
+Faithfulness score: 0.8
+Reason: The answer provides mostly relevant information but includes some additional details not mentioned in the context, such as model formats and additional model types.

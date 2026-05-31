@@ -1,0 +1,27 @@
+
+Judge output:
+FAITHFULNESS: 0.0
+ANSWER_RELEVANCY: 0.0
+CONTEXT_PRECISION: 0.0
+REASON: The generated answer does not accurately reflect the specific models supported by KServe, as mentioned in the expected answer.
+
+Judge output:
+FAITHFULNESS: 0.8
+ANSWER_RELEVANCY: 0.9
+CONTEXT_PRECISION: 0.7
+REASON: The generated answer is mostly accurate but includes unnecessary details and wording compared to the expected answer.
+
+Judge output:
+FAITHFULNESS: 0.8
+ANSWER_RELEVANCY: 0.9
+CONTEXT_PRECISION: 0.8
+REASON: The generated answer is mostly correct but lacks the full context and supporting details provided in the expected answer.
+
+Q: What does KServe support?
+A: KServe, which is part of Red Hat OpenShift AI, supports model serving.
+
+Q: What is OpenShift AI used for?
+A: OpenShift AI is used for running AI and ML workloads on Kubernetes, specifically for model serving u
+
+Q: What pipelines does OpenShift AI support?
+A: Kubeflow Pipelines.

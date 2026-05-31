@@ -1,0 +1,6 @@
+
+Q: What does KServe support? — Relevancy: 0.4
+
+Q: What is OpenShift AI used for? — Relevancy: 0.9
+
+Q: What pipelines does OpenShift AI support? — Relevancy: 0.9

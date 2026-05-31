@@ -1,0 +1,6 @@
+
+Q: What does KServe support? — Faithfulness: 0.2
+
+Q: What is OpenShift AI used for? — Faithfulness: 0.8
+
+Q: What pipelines does OpenShift AI support? — Faithfulness: 0.8

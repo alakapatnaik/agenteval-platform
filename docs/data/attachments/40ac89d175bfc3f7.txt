@@ -1,0 +1,6 @@
+
+Q: What does KServe support? — Precision: 0.6
+
+Q: What is OpenShift AI used for? — Precision: 0.7
+
+Q: What pipelines does OpenShift AI support? — Precision: 0.8

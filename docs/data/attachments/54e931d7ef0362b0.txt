@@ -1,0 +1,18 @@
+
+Model output: KServe is a managed machine learning service that supports various models, including:
+
+1. TensorFlow Serving
+2. MLflow
+3. ONNX Runtime
+4. TensorFlow.js
+5. PyTorch
+6. Scikit-Learn
+7. Hugging Face Trans
+
+Judge raw output:
+RELEVANCY: 0.8
+FAITHFULNESS: 0.6
+HALLUCINATION: 0.4
+REASON: The answer provides some correct information but also includes unsupported models and details not present in the context.
+Faithfulness score: 0.6
+Reason: The answer provides some correct information but also includes unsupported models and details not present in the context.

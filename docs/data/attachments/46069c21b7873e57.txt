@@ -1,0 +1,12 @@
+
+Model output: Red Hat OpenShift is a container application platform that supports various AI-related technologies. Some of the AI-related features and tools supported by Red Hat OpenShift include:
+
+1. Machine Learn
+
+Judge raw output:
+RELEVANCY: 0.8
+FAITHFULNESS: 0.6
+HALLUCINATION: 0.4
+REASON: The answer provides some relevant information about Red Hat OpenShift AI, but also includes extra details not mentioned in the context and lacks specific information about KServe and Jupyter notebooks.
+Hallucination score: 0.4
+Reason: The answer provides some relevant information about Red Hat OpenShift AI, but also includes extra details not mentioned in the context and lacks specific information about KServe and Jupyter notebooks.

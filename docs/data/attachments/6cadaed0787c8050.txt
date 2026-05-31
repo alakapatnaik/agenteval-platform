@@ -1,0 +1,28 @@
+
+=======================================================
+RAG EVALUATION REPORT
+=======================================================
+
+Q: What does KServe support?
+  Faithfulness:      0.20
+  Answer Relevancy:  0.40
+  Context Precision: 0.60
+  Reason: The generated answer is incomplete and lacks specific details about the models supported by KServe.
+
+Q: What is OpenShift AI used for?
+  Faithfulness:      0.80
+  Answer Relevancy:  0.90
+  Context Precision: 0.70
+  Reason: The generated answer is mostly accurate but includes unnecessary details and slightly deviates from the expected concise answer.
+
+Q: What pipelines does OpenShift AI support?
+  Faithfulness:      0.80
+  Answer Relevancy:  0.90
+  Context Precision: 0.80
+  Reason: The generated answer is mostly correct but lacks the full context and supporting details provided in the expected answer.
+
+-------------------------------------------------------
+Avg Faithfulness:      0.60
+Avg Answer Relevancy:  0.73
+Avg Context Precision: 0.70
+=======================================================

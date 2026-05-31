@@ -1,0 +1,10 @@
+
+Model output: Red Hat OpenShift is an open-source container application platform that supports various AI and machine learning (ML) technologies. Some of the AI and ML frameworks and tools that Red Hat OpenShift su
+
+Judge raw output:
+RELEVANCY: 0.8
+FAITHFULNESS: 0.7
+HALLUCINATION: 0.4
+REASON: The answer provides relevant information about Red Hat OpenShift AI's support, but includes some unnecessary details and frameworks not explicitly mentioned in the context.
+Hallucination score: 0.4
+Reason: The answer provides relevant information about Red Hat OpenShift AI's support, but includes some unnecessary details and frameworks not explicitly mentioned in the context.

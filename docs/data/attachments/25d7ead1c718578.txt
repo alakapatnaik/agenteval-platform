@@ -1,0 +1,10 @@
+
+Model output: Red Hat OpenShift is a container application platform that provides a managed, self-service experience for developing, deploying, and managing applications in the cloud or on-premises. It's an open-so
+
+Judge raw output:
+RELEVANCY: 0.95
+FAITHFULNESS: 0.9
+HALLUCINATION: 0.05
+REASON: The answer accurately describes Red Hat OpenShift's features, benefits, and editions, with minimal unnecessary information.
+Relevancy score: 0.95
+Reason: The answer accurately describes Red Hat OpenShift's features, benefits, and editions, with minimal unnecessary information.

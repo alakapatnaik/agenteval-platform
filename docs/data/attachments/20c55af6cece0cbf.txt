@@ -1,0 +1,2 @@
+
+Answer: KServe, a component of Red Hat OpenShift AI, supports model serving.

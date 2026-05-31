@@ -1,0 +1,10 @@
+
+Model output: I'm not able to find information on what models of the KServe server are supported. If you have any other questions, I'd be happy to try and help!
+
+Judge raw output:
+RELEVANCY: 0
+FAITHFULNESS: 0
+HALLUCINATION: 1
+REASON: The answer is unrelated to the context and provides incorrect information by stating inability to find information on supported models.
+Faithfulness score: 0.0
+Reason: The answer is unrelated to the context and provides incorrect information by stating inability to find information on supported models.

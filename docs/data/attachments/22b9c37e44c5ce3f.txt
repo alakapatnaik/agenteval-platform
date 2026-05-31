@@ -1,0 +1,4 @@
+
+Endpoint: http://localhost:11434/api/generate
+Protocol: ollama
+Response: Hello! It's nice to meet you. Is there something I can help you with or would you like to chat?

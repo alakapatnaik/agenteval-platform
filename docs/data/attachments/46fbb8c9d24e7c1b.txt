@@ -1,0 +1,9 @@
+
+Prompt: What is OpenShift AI?
+Answer: OpenShift AI is a platform for running AI and ML workloads on Kubernetes.
+
+Prompt: What is the model registry?
+Answer: The model registry in OpenShift AI is a storage system for storing and versioning ML (Machine Learni
+
+Prompt: What is single-model serving?
+Answer: Single-model serving dedicates resources to one model, meaning that each model runs independently an
